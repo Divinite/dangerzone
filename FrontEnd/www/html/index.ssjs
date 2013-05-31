@@ -1,4 +1,5 @@
 /* $Id: index.ssjs,v 1.28 2005/06/30 20:48:31 rswindell Exp $ */
+/* This page has been altered by Divinite. */
 
 load("../web/lib/template.ssjs");
 
@@ -76,7 +77,8 @@ load("../web/lib/leftnav_html.ssjs");
     template.additional_services+='[' + ("irc".link("irc://"+host +irc_port)) + '] ';
     template.additional_services+='[' + ("news".link("news://"+host +nntp_port)) + '] ';
     template.additional_services+='[' + ("gopher".link("gopher://"+host +gopher_port)) + '] ';
-
+	template.additional_services+='[' + ("wiki".link("http://wikiwikigoeshere.wikibrokennobodyaddedthislink.com/")) + '] ';
+	
 write_template("main.inc");
 write_template("footer.inc");
 
