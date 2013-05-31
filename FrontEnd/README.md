@@ -1,0 +1,1 @@
++ The FrontEnd of the system is located in the folder 'www'.
